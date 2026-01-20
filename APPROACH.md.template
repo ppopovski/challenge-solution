@@ -1,0 +1,48 @@
+# APPROACH.md
+
+*Delete this template section and fill in your own content below.*
+
+---
+
+## Solution Overview
+
+Briefly describe your approach to implementing fuzzy matching.
+
+## Algorithm Choice
+
+### What I implemented
+-
+
+### Why I chose this approach
+-
+
+### Alternatives considered
+-
+
+## Trade-offs
+
+### Accuracy vs Performance
+-
+
+### Threshold Selection
+-
+
+## Edge Cases Handled
+
+-
+
+## Future Improvements
+
+If I had more time, I would:
+-
+
+## AI Tool Usage (if applicable)
+
+If you used AI tools (ChatGPT, Claude, Copilot, etc.), document:
+- **Tools used:**
+- **How I used them:**
+- **What I validated/modified:**
+
+---
+
+*Time spent: ___ minutes*

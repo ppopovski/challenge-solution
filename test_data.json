@@ -1,0 +1,59 @@
+{
+  "test_cases": [
+    {
+      "source": "cust_id",
+      "expected_match": "customer_id",
+      "category": "abbreviation",
+      "current_score": 0.55,
+      "expected_score": ">0.85"
+    },
+    {
+      "source": "custmer_id",
+      "expected_match": "customer_id",
+      "category": "typo",
+      "current_score": 0.73,
+      "expected_score": ">0.85"
+    },
+    {
+      "source": "CustomerID",
+      "expected_match": "customer_id",
+      "category": "case_variation",
+      "current_score": 0.40,
+      "expected_score": ">0.90"
+    },
+    {
+      "source": "id_customer",
+      "expected_match": "customer_id",
+      "category": "word_reorder",
+      "current_score": 0.62,
+      "expected_score": ">0.80"
+    },
+    {
+      "source": "dept",
+      "expected_match": "department",
+      "category": "abbreviation",
+      "current_score": 0.36,
+      "expected_score": ">0.85"
+    },
+    {
+      "source": "first_name",
+      "expected_match": "firstName",
+      "category": "case_variation",
+      "current_score": 0.53,
+      "expected_score": ">0.95"
+    },
+    {
+      "source": "DoB",
+      "expected_match": "date_of_birth",
+      "category": "acronym",
+      "current_score": 0.15,
+      "expected_score": ">0.80"
+    }
+  ],
+  "schema_columns": [
+    "customer_id", "first_name", "last_name", "email", "phone",
+    "date_of_birth", "address", "city", "country", "postal_code",
+    "department", "employee_id", "hire_date", "salary", "manager_id",
+    "order_id", "product_id", "quantity", "unit_price", "order_date"
+  ]
+}
