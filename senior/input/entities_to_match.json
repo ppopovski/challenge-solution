@@ -1,0 +1,44 @@
+{
+  "pdf_file": "gearhead_report.pdf",
+  "entities": [
+    {
+      "name": "49.99% On-Time Delivery Rate",
+      "type": "KPI"
+    },
+    {
+      "name": "78.5 % OEE",
+      "type": "KPI"
+    },
+    {
+      "name": "Return Rate 24.96%",
+      "type": "KPI"
+    },
+    {
+      "name": "On-Time-Delivery",
+      "type": "KPI"
+    },
+    {
+      "name": "Week 45, FY2023",
+      "type": "DATE"
+    },
+    {
+      "name": "November 6-12, 2023",
+      "type": "DATE"
+    },
+    {
+      "name": "Gearhead Cycles",
+      "type": "ORGANIZATION"
+    },
+    {
+      "name": "Pacific Components Ltd.",
+      "type": "ORGANIZATION"
+    }
+  ],
+  "_notes": {
+    "intentional_issues": [
+      "'78.5 % OEE' has extra space before %",
+      "'Return Rate 24.96%' has inverted order (document says '24.96% Return Rate')",
+      "'On-Time-Delivery' uses hyphens instead of spaces"
+    ]
+  }
+}

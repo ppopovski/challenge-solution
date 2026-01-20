@@ -1,0 +1,36 @@
+{
+  "matched_entities": [
+    {
+      "entity_name": "",
+      "entity_type": "",
+      "match_strategy": "",
+      "confidence": 0.0,
+      "bounds": {
+        "page": 0,
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "component_matches": [
+        {
+          "text": "",
+          "bounds": {
+            "page": 0,
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_entities": 0,
+    "matched": 0,
+    "partial_matched": 0,
+    "unmatched": 0,
+    "strategies_used": {}
+  }
+}
