@@ -1,7 +1,10 @@
 # Core dependencies
 python-docx==1.1.0
-PyMuPDF==1.24.0
 python-dotenv==1.0.0
+
+# NOTE (Windows/Python 3.13): PyMuPDF may require native build tools if no wheel is available.
+# The junior challenge does not require PDF conversion to pass extraction tests, so we keep it optional.
+# If you want PDF conversion, install PyMuPDF separately in an environment where wheels are available.
 
 # LLM clients (install the one you need)
 openai>=1.0.0

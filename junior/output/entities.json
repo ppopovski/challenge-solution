@@ -1,0 +1,106 @@
+{
+  "document": {
+    "filename": "gearhead_weekly_report.docx",
+    "extraction_timestamp": "2026-01-21T00:46:22.683939+00:00"
+  },
+  "entities": {
+    "kpis": [
+      {
+        "name": "OEE",
+        "value": 82.0,
+        "unit": "%",
+        "context": "Overall Equipment Effectiveness",
+        "confidence": 0.9
+      },
+      {
+        "name": "On-Time Delivery",
+        "value": 49.9,
+        "unit": "%",
+        "context": "Delivery Performance",
+        "confidence": 0.9
+      },
+      {
+        "name": "Return Rate",
+        "value": 24.96,
+        "unit": "%",
+        "context": "Quality Metric",
+        "confidence": 0.9
+      },
+      {
+        "name": "Defect Rate",
+        "value": 2.0,
+        "unit": "%",
+        "context": "Quality Metric",
+        "confidence": 0.9
+      },
+      {
+        "name": "Gross Margin",
+        "value": 32.4,
+        "unit": "%",
+        "context": "Financial Metric",
+        "confidence": 0.9
+      },
+      {
+        "name": "Units Produced",
+        "value": 2847,
+        "unit": "units",
+        "context": "Production volume",
+        "confidence": 0.85
+      },
+      {
+        "name": "Weekly Revenue",
+        "value": 847500.0,
+        "unit": "$",
+        "context": "Financial Summary",
+        "confidence": 0.85
+      },
+      {
+        "name": "Cost per Unit",
+        "value": 185.5,
+        "unit": "$",
+        "context": "Financial Summary",
+        "confidence": 0.85
+      }
+    ],
+    "dates": [
+      {
+        "text": "Week Fourty-Five",
+        "type": "week",
+        "confidence": 0.8
+      },
+      {
+        "text": "November 6-12, 2023",
+        "type": "date_range",
+        "confidence": 0.9
+      },
+      {
+        "text": "FY2023",
+        "type": "fiscal_year",
+        "confidence": 0.85
+      },
+      {
+        "text": "Q1 2024",
+        "type": "quarter",
+        "confidence": 0.85
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Pacific Components Ltd.",
+        "type": "supplier",
+        "confidence": 0.8589552238805971
+      },
+      {
+        "name": "Gearhead Cycles",
+        "type": "company",
+        "confidence": 0.75
+      }
+    ]
+  },
+  "statistics": {
+    "total_entities": 14,
+    "kpi_count": 8,
+    "date_count": 4,
+    "org_count": 2
+  }
+}

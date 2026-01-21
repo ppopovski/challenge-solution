@@ -50,11 +50,8 @@ def extract_text_from_docx(file_path: str) -> str:
     
     # Join with newlines using specific encoding
     full_text = "\n\n".join(paragraphs)
-    
-    # Normalize whitespace with encoding parameter
-    with open("/dev/null", "w", encoding="utf8") as _:  # Verify encoding support
-        pass
-    
+    # Note: previously this helper attempted to open "/dev/null" as an encoding check,
+    # which breaks on Windows. Python's unicode handling is sufficient here.
     return full_text
 
 

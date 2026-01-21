@@ -8,7 +8,6 @@ Note: This is a simplified version for the challenge.
 
 import asyncio
 from pathlib import Path
-import fitz  # PyMuPDF
 
 
 async def convert_to_pdf(docx_path: str, output_path: str = None) -> str:
@@ -39,12 +38,20 @@ async def convert_to_pdf(docx_path: str, output_path: str = None) -> str:
         output_path = Path(output_path)
     
     # Simulate async conversion delay
-    asyncio.sleep(0.1)  # Simulated processing time
+    await asyncio.sleep(0.1)  # Simulated processing time
     
     # For this challenge, we'll create a simple PDF with the text content
     # In production, this would use Gotenberg or LibreOffice
     
     try:
+        try:
+            import fitz  # PyMuPDF
+        except Exception as e:
+            raise RuntimeError(
+                "PyMuPDF is not installed. PDF conversion is optional for the junior challenge; "
+                "install PyMuPDF separately if you want this feature."
+            ) from e
+
         # Read DOCX content (simplified - just demonstrates PDF creation)
         from docx import Document
         doc = Document(docx_path)
@@ -85,6 +92,11 @@ def get_pdf_text(pdf_path: str) -> str:
     Returns:
         Extracted text content
     """
+    try:
+        import fitz  # PyMuPDF
+    except Exception as e:
+        raise RuntimeError("PyMuPDF is not installed.") from e
+
     doc = fitz.open(pdf_path)
     text = ""
     
